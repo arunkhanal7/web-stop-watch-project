@@ -1,0 +1,40 @@
+body{
+    background-color: blue;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.container{
+    position: absolute;
+    border: 2px solid black;
+    top: 10%;
+    left: 39%;
+    height: 42px;
+    width:340px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+}
+button{
+    position:relative;
+    top: 10%;
+    left: 39%;
+    border-radius: 20%;
+    border: 2px solid rgb(15, 0, 0);
+    padding: 0.5rem;
+    cursor: pointer;
+}
+button#start{
+    background-color: green;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+button#stop{
+    background-color: red;
+    margin-left: 45px;
+}
+button#reset{
+    background-color: orange;
+    margin-left: 45px;
+}
